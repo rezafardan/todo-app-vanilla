@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>To Do App</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">
+          <img src="assets/profile.png" alt="Profile Image" />
+          <h1>Welcome Oliva Grace</h1>
+        </div>
+
+        <div class="date">
+          <p>Good Afternoon</p>
+          <input type="date" />
+        </div>
+
+        <div class="task-wrapper">
+          <p>Tasks List</p>
+          <div class="tasks">
+            <form>
+              <input type="text" id="input-form" />
+              <select id="priority">
+                <option value="none">---Select Priority---</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+              <button id="add-task" type="submit">
+                <img src="assets/plus-circle.svg" alt="Plus Logo" />
+              </button>
+            </form>
+            <div>
+              <ul id="task">
+                <li>
+                  <input type="checkbox" name="" id="a" />
+                  <label for="a">
+                    <span
+                      >Lorem ipsum dolor, sit amet consectetur adipisicing
+                      elit.</span
+                    >
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
